@@ -4,7 +4,6 @@ import DataSource from "../data/data-source.js";
 
 const main = () => {
   const searchElement = document.querySelector("search-bar");
-  // const buttonSearchElement = document.querySelector("#searchButtonElement");
   const movieListElement = document.querySelector("movie-list");
 
   const onButtonSearchClicked = async () => {
@@ -24,7 +23,6 @@ const main = () => {
     movieListElement.renderError(message);
   };
 
-  // buttonSearchElement.addEventListener("click", onButtonSearchClicked);
   searchElement.clickEvent = onButtonSearchClicked;
 };
 
