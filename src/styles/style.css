@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 70%;
+    background-color: #9cafc7;
+    padding: 20px;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(75 85 99);
+}
+
+movie-list {
+    margin-top: 12px;
+    width: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 320px) {
+    main {
+        width: 100%;
+    }
+}
